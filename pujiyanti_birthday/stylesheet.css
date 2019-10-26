@@ -1302,9 +1302,6 @@ audio {
 
 
 	@media screen and (max-width:500px){
-		body{
-			background: blue;
-		}
 		.balloons{
 			bottom: -200px;
 			opacity: 0.6;
