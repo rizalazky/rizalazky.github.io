@@ -1088,7 +1088,7 @@ audio {
 .balloons h2 {
 	text-transform: uppercase;
 	font-family: 'Signika', sans-serif;
-	font-size: 50px;
+	font-size: 30px;
 	color: #BF4136;
 	text-shadow: 5px 5px 5px #FFF;
 	display: none;
@@ -1301,7 +1301,28 @@ audio {
     }
 
 
-
+	@media screen and (max-width:500px){
+		body{
+			background: blue;
+		}
+		.balloons{
+			bottom: -200px;
+			opacity: 0.6;
+			z-index: 99;
+			width: 50px;
+			height: 130px;
+			background-repeat: no-repeat no-repeat;
+			background-size: 50px 130px;
+		}
+		.balloons h2 {
+			text-transform: uppercase;
+			font-family: 'Signika', sans-serif;
+			font-size: 30px;
+			color: #BF4136;
+			text-shadow: 5px 5px 5px #FFF;
+			display: none;
+		}
+	}
     /*controlling tablet width*/
     /*@media only screen and (max-width: 720px){
     	.container {
