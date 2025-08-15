@@ -14,6 +14,16 @@
         "ARDUINO"
     ],
     "experiences":[{
+        "company" : "ABJ Cloud Solutions",
+        "jobTitle" : "Technical Netsuite Consultant",
+        "date": "Nov 2024 - Now",
+        "jobDesks" : [
+            "Develop custom code using SuiteScript to meet user requirements",
+            "Integrate NetSuite with third-party systems via REST/SOAP APIs.",
+            "Collaborate with clients to gather requirements and provide technical support",
+            "Build PDF templates using SuiteScript(Suitelet)"
+        ]
+    },{
         "company" : "AITINDO",
         "jobTitle" : "Fullstack Developer",
         "date": "Jun 2022 - Jun 2024",
