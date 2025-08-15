@@ -220,12 +220,15 @@
   });
 
   // typing
-  var typed = new Typed(".typing", {
-    strings: ["Software Engineer","Full-stack Developer"],
-    typeSpeed: 100,
-    backSpeed: 60,
-    loop: true,
-  });
+  if(document.querySelector(".typing")){
+    var typed = new Typed(".typing", {
+      strings: ["Software Engineer","Full-stack Developer"],
+      typeSpeed: 100,
+      backSpeed: 60,
+      loop: true,
+    });
+  }
+
 
   /**
    * Initiate portfolio lightbox
