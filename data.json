@@ -49,6 +49,12 @@
         ]
     }],
     "portfolio":[{
+        "title" : "Early Warning System",
+        "type"  : "web",
+        "desc"  : "A web application to monitor water levels at various dams and rivers in the Pemali Comal region. It includes real-time tracking of danger levels (SIAP, SIAGA, AWAS) and provides contact information for control officers responsible for managing water flow. I developed the backend API using Laravel, integrated MySQL for data storage, and ensured seamless communication with the Next.js frontend for real-time data updates.",
+        "link"  : "https://www.ewspemalicomal.info/",
+        "tech"  : ["Laravel(BE)","Next JS(FE)","MYSQL"]
+    },{
         "title" : "My Doctor",
         "type"  : "mobile",
         "desc"  : "",
